@@ -7,19 +7,31 @@
 //
 
 import UIKit
-
+import Firebase
 class ViewController: UIViewController {
 
+    @IBOutlet weak var createBut: UIButton!
+
+    @IBOutlet weak var emailField: UITextField!
+    @IBOutlet weak var passwordField: UITextField!
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+       // Do any additional setup after loading the view, typically from a nib.
     }
 
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
-    }
-
+    @IBAction func loginPressed(_ sender: Any) {
+        Analytics.logEvent("logEvent", parameters: nil)
+        
+        if let email = emailField.text, let password = passwordField.text{
+            Auth.auth().signIn(withEmail: email, password: password){ (user, error) in
+                if let error = error {
+                    print(error.localizedDescription)
+                    return
+                }
+                self.performSegue(withIdentifier: "login", sender: nil)
+            }
+        }
+         }
 
 }
 

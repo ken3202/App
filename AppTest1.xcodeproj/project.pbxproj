@@ -7,21 +7,61 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B45119B595608C6F7F56F525 /* Pods_AppTest1.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 529B204308275E9B6F16C38E /* Pods_AppTest1.framework */; };
+		BE13D8D62114BA33007BFCBF /* FeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE13D8D52114BA33007BFCBF /* FeedViewController.swift */; };
+		BE13D8D82114BA58007BFCBF /* UploadViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE13D8D72114BA58007BFCBF /* UploadViewController.swift */; };
+		BE609FE42120909C00B118A4 /* RestaurantDetailTextCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE609FE02120909B00B118A4 /* RestaurantDetailTextCell.swift */; };
+		BE609FE52120909C00B118A4 /* RestaurantTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE609FE12120909B00B118A4 /* RestaurantTableViewCell.swift */; };
+		BE609FE62120909C00B118A4 /* RestaurantDetailHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE609FE22120909C00B118A4 /* RestaurantDetailHeaderView.swift */; };
+		BE609FE72120909C00B118A4 /* RestaurantDetailIconTextCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE609FE32120909C00B118A4 /* RestaurantDetailIconTextCell.swift */; };
+		BE609FEA212090AD00B118A4 /* RestaurantDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE609FE8212090AC00B118A4 /* RestaurantDetailViewController.swift */; };
+		BE609FEB212090AD00B118A4 /* RestaurantTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE609FE9212090AC00B118A4 /* RestaurantTableViewController.swift */; };
+		BE609FED212094D700B118A4 /* RestaurantDetailMapCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE609FEC212094D700B118A4 /* RestaurantDetailMapCell.swift */; };
+		BE609FEF212094E300B118A4 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE609FEE212094E300B118A4 /* MapViewController.swift */; };
+		BE609FF3212094ED00B118A4 /* UINavigationController+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE609FF1212094ED00B118A4 /* UINavigationController+Ext.swift */; };
+		BE609FF4212094ED00B118A4 /* UIColor+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE609FF2212094ED00B118A4 /* UIColor+Ext.swift */; };
+		BE622B38211F7F1E002FC558 /* CloudKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE622B37211F7F1D002FC558 /* CloudKit.framework */; };
+		BE622B3A211F7F24002FC558 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE622B39211F7F23002FC558 /* MapKit.framework */; };
+		BE622B3E211F8B48002FC558 /* Restaurant.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE622B3D211F8B48002FC558 /* Restaurant.swift */; };
+		BE788A6E2120B04500BBDBE0 /* RestaurantDetailSeparatorCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE788A6D2120B04500BBDBE0 /* RestaurantDetailSeparatorCell.swift */; };
+		BED7B0712112FF4600967EE9 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BED7B0702112FF4600967EE9 /* SignUpViewController.swift */; };
 		BEEC834F2112DED30006CAD2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEEC834E2112DED30006CAD2 /* AppDelegate.swift */; };
 		BEEC83512112DED30006CAD2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEEC83502112DED30006CAD2 /* ViewController.swift */; };
 		BEEC83542112DED30006CAD2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BEEC83522112DED30006CAD2 /* Main.storyboard */; };
 		BEEC83562112DED50006CAD2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BEEC83552112DED50006CAD2 /* Assets.xcassets */; };
 		BEEC83592112DED50006CAD2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BEEC83572112DED50006CAD2 /* LaunchScreen.storyboard */; };
+		BEEC83632112DF810006CAD2 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = BEEC83622112DF810006CAD2 /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		529B204308275E9B6F16C38E /* Pods_AppTest1.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AppTest1.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE13D8D52114BA33007BFCBF /* FeedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedViewController.swift; sourceTree = "<group>"; };
+		BE13D8D72114BA58007BFCBF /* UploadViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UploadViewController.swift; sourceTree = "<group>"; };
+		BE4D75FC21209C7D00A94776 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BE609FE02120909B00B118A4 /* RestaurantDetailTextCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RestaurantDetailTextCell.swift; sourceTree = "<group>"; };
+		BE609FE12120909B00B118A4 /* RestaurantTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RestaurantTableViewCell.swift; sourceTree = "<group>"; };
+		BE609FE22120909C00B118A4 /* RestaurantDetailHeaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RestaurantDetailHeaderView.swift; sourceTree = "<group>"; };
+		BE609FE32120909C00B118A4 /* RestaurantDetailIconTextCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RestaurantDetailIconTextCell.swift; sourceTree = "<group>"; };
+		BE609FE8212090AC00B118A4 /* RestaurantDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RestaurantDetailViewController.swift; sourceTree = "<group>"; };
+		BE609FE9212090AC00B118A4 /* RestaurantTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RestaurantTableViewController.swift; sourceTree = "<group>"; };
+		BE609FEC212094D700B118A4 /* RestaurantDetailMapCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RestaurantDetailMapCell.swift; sourceTree = "<group>"; };
+		BE609FEE212094E300B118A4 /* MapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		BE609FF1212094ED00B118A4 /* UINavigationController+Ext.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UINavigationController+Ext.swift"; sourceTree = "<group>"; };
+		BE609FF2212094ED00B118A4 /* UIColor+Ext.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+Ext.swift"; sourceTree = "<group>"; };
+		BE622B37211F7F1D002FC558 /* CloudKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CloudKit.framework; path = System/Library/Frameworks/CloudKit.framework; sourceTree = SDKROOT; };
+		BE622B39211F7F23002FC558 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		BE622B3D211F8B48002FC558 /* Restaurant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Restaurant.swift; sourceTree = "<group>"; };
+		BE788A6D2120B04500BBDBE0 /* RestaurantDetailSeparatorCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RestaurantDetailSeparatorCell.swift; sourceTree = "<group>"; };
+		BED7B0702112FF4600967EE9 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
 		BEEC834B2112DED30006CAD2 /* AppTest1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AppTest1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BEEC834E2112DED30006CAD2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BEEC83502112DED30006CAD2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		BEEC83532112DED30006CAD2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BEEC83552112DED50006CAD2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BEEC83582112DED50006CAD2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		BEEC835A2112DED50006CAD2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BEEC83622112DF810006CAD2 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		C6A6D0E0ACA77492C8179999 /* Pods-AppTest1.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AppTest1.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AppTest1/Pods-AppTest1.debug.xcconfig"; sourceTree = "<group>"; };
+		F0B6B8C2A69658268AA795A5 /* Pods-AppTest1.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AppTest1.release.xcconfig"; path = "Pods/Target Support Files/Pods-AppTest1/Pods-AppTest1.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +69,62 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BE622B3A211F7F24002FC558 /* MapKit.framework in Frameworks */,
+				BE622B38211F7F1E002FC558 /* CloudKit.framework in Frameworks */,
+				B45119B595608C6F7F56F525 /* Pods_AppTest1.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		BE609FF0212094ED00B118A4 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				BE609FF1212094ED00B118A4 /* UINavigationController+Ext.swift */,
+				BE609FF2212094ED00B118A4 /* UIColor+Ext.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		BE622B32211F7944002FC558 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				BE788A6D2120B04500BBDBE0 /* RestaurantDetailSeparatorCell.swift */,
+				BE609FE22120909C00B118A4 /* RestaurantDetailHeaderView.swift */,
+				BE609FE32120909C00B118A4 /* RestaurantDetailIconTextCell.swift */,
+				BE609FE02120909B00B118A4 /* RestaurantDetailTextCell.swift */,
+				BE609FE12120909B00B118A4 /* RestaurantTableViewCell.swift */,
+				BE609FEC212094D700B118A4 /* RestaurantDetailMapCell.swift */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		BE622B33211F7957002FC558 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				BE609FEE212094E300B118A4 /* MapViewController.swift */,
+				BE609FE8212090AC00B118A4 /* RestaurantDetailViewController.swift */,
+				BE609FE9212090AC00B118A4 /* RestaurantTableViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		BE622B34211F7A81002FC558 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				BE622B3D211F8B48002FC558 /* Restaurant.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		BEEC83422112DED30006CAD2 = {
 			isa = PBXGroup;
 			children = (
 				BEEC834D2112DED30006CAD2 /* AppTest1 */,
 				BEEC834C2112DED30006CAD2 /* Products */,
+				E0373B44257A8249D779AEF6 /* Pods */,
+				F19F7A7871F0DB5EE7C817DB /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +139,41 @@
 		BEEC834D2112DED30006CAD2 /* AppTest1 */ = {
 			isa = PBXGroup;
 			children = (
+				BE13D8D52114BA33007BFCBF /* FeedViewController.swift */,
+				BE13D8D72114BA58007BFCBF /* UploadViewController.swift */,
 				BEEC834E2112DED30006CAD2 /* AppDelegate.swift */,
 				BEEC83502112DED30006CAD2 /* ViewController.swift */,
 				BEEC83522112DED30006CAD2 /* Main.storyboard */,
+				BED7B0702112FF4600967EE9 /* SignUpViewController.swift */,
 				BEEC83552112DED50006CAD2 /* Assets.xcassets */,
 				BEEC83572112DED50006CAD2 /* LaunchScreen.storyboard */,
-				BEEC835A2112DED50006CAD2 /* Info.plist */,
+				BEEC83622112DF810006CAD2 /* GoogleService-Info.plist */,
+				BE4D75FC21209C7D00A94776 /* Info.plist */,
+				BE609FF0212094ED00B118A4 /* Extensions */,
+				BE622B34211F7A81002FC558 /* Model */,
+				BE622B33211F7957002FC558 /* Controller */,
+				BE622B32211F7944002FC558 /* Cell */,
 			);
 			path = AppTest1;
+			sourceTree = "<group>";
+		};
+		E0373B44257A8249D779AEF6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C6A6D0E0ACA77492C8179999 /* Pods-AppTest1.debug.xcconfig */,
+				F0B6B8C2A69658268AA795A5 /* Pods-AppTest1.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		F19F7A7871F0DB5EE7C817DB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BE622B39211F7F23002FC558 /* MapKit.framework */,
+				BE622B37211F7F1D002FC558 /* CloudKit.framework */,
+				529B204308275E9B6F16C38E /* Pods_AppTest1.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +183,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BEEC835D2112DED50006CAD2 /* Build configuration list for PBXNativeTarget "AppTest1" */;
 			buildPhases = (
+				363E00AFF83FB0950BDB0BDD /* [CP] Check Pods Manifest.lock */,
 				BEEC83472112DED30006CAD2 /* Sources */,
 				BEEC83482112DED30006CAD2 /* Frameworks */,
 				BEEC83492112DED30006CAD2 /* Resources */,
+				58C6603C468F8A606F032DA0 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -96,6 +210,11 @@
 				TargetAttributes = {
 					BEEC834A2112DED30006CAD2 = {
 						CreatedOnToolsVersion = 9.4.1;
+						SystemCapabilities = {
+							com.apple.Maps.iOS = {
+								enabled = 1;
+							};
+						};
 					};
 				};
 			};
@@ -123,6 +242,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BEEC83592112DED50006CAD2 /* LaunchScreen.storyboard in Resources */,
+				BEEC83632112DF810006CAD2 /* GoogleService-Info.plist in Resources */,
 				BEEC83562112DED50006CAD2 /* Assets.xcassets in Resources */,
 				BEEC83542112DED30006CAD2 /* Main.storyboard in Resources */,
 			);
@@ -130,13 +250,75 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		363E00AFF83FB0950BDB0BDD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AppTest1-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		58C6603C468F8A606F032DA0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-AppTest1/Pods-AppTest1-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/Protobuf/Protobuf.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Protobuf.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AppTest1/Pods-AppTest1-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		BEEC83472112DED30006CAD2 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BED7B0712112FF4600967EE9 /* SignUpViewController.swift in Sources */,
+				BE609FE72120909C00B118A4 /* RestaurantDetailIconTextCell.swift in Sources */,
+				BE609FEB212090AD00B118A4 /* RestaurantTableViewController.swift in Sources */,
+				BE13D8D82114BA58007BFCBF /* UploadViewController.swift in Sources */,
 				BEEC83512112DED30006CAD2 /* ViewController.swift in Sources */,
+				BE609FF4212094ED00B118A4 /* UIColor+Ext.swift in Sources */,
+				BE609FE62120909C00B118A4 /* RestaurantDetailHeaderView.swift in Sources */,
+				BE13D8D62114BA33007BFCBF /* FeedViewController.swift in Sources */,
+				BE788A6E2120B04500BBDBE0 /* RestaurantDetailSeparatorCell.swift in Sources */,
+				BE609FEA212090AD00B118A4 /* RestaurantDetailViewController.swift in Sources */,
+				BE609FED212094D700B118A4 /* RestaurantDetailMapCell.swift in Sources */,
+				BE609FE52120909C00B118A4 /* RestaurantTableViewCell.swift in Sources */,
 				BEEC834F2112DED30006CAD2 /* AppDelegate.swift in Sources */,
+				BE609FF3212094ED00B118A4 /* UINavigationController+Ext.swift in Sources */,
+				BE622B3E211F8B48002FC558 /* Restaurant.swift in Sources */,
+				BE609FE42120909C00B118A4 /* RestaurantDetailTextCell.swift in Sources */,
+				BE609FEF212094E300B118A4 /* MapViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -278,11 +460,13 @@
 		};
 		BEEC835E2112DED50006CAD2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C6A6D0E0ACA77492C8179999 /* Pods-AppTest1.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = U8P75P7V52;
 				INFOPLIST_FILE = AppTest1/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -296,11 +480,13 @@
 		};
 		BEEC835F2112DED50006CAD2 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F0B6B8C2A69658268AA795A5 /* Pods-AppTest1.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = U8P75P7V52;
 				INFOPLIST_FILE = AppTest1/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
